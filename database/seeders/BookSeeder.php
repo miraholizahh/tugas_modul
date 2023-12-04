@@ -22,6 +22,7 @@ class BookSeeder extends Seeder
             'publisher' => 'Penerbit Buku',
             'city' => 'Jakarta',
             'cover' => 'Cover.jpg',
+            'quantity' => 1,
             'bookshelf_id' => 1, 
             'category_id' => 1,
         ]);

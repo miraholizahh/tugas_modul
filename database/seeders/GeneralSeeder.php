@@ -71,6 +71,8 @@ class GeneralSeeder extends Seeder
             'created_at' => now(),
             'updated_at' => now(),
         ]);
+        
+        $user->assignRole('pustakawan');
 
         $admin->assignRole('admin');
 
